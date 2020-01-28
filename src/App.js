@@ -11,9 +11,9 @@ class App extends React.Component{
        <div className='body-container'>
           <Header title='numbers' description='What tales do your metrics tell?' />
           <div className='work-descripton-container'>
-            <Part api='numbersapi.com/5/math' />
-            <Part api='numbersapi.com/15'  />
-            <Part api='numbersapi.com/2/28/date' />
+            <Part api='5/math' title='math'/>
+            <Part api='15' title='trivia'  />
+            <Part api='2/28/date' title='date' />
           </div>
        </div>
     </div>
