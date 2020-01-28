@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Part.css';
 
 class DatePart extends React.Component{
   constructor(props){

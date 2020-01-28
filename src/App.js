@@ -11,10 +11,13 @@ class App extends React.Component{
        <div className='body-container'>
           <Header title='numbers' description='What tales do your metrics tell?' />
           <div className='work-descripton-container'>
-            <Part api='5/math' title='math'/>
-            <Part api='15' title='trivia'  />
-            <Part api='2/28/date' title='date' />
+            <div className='work-descripton'>
+              <Part api='5/math' title='math'/>
+              <Part api='15' title='trivia'  />
+              <Part api='2/28/date' title='date' />
+            </div>
           </div>
+          
        </div>
     </div>
     ); 

@@ -24,3 +24,15 @@
   color: white ;
   margin-top: 0.5em;
 }
+.work-descripton-container{
+  background-color: #000066;
+  opacity: 0.6;
+  border-radius: 1em;
+}
+.work-descripton{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  padding: 1em;
+}
