@@ -1,0 +1,30 @@
+.part{
+  width: 30%;
+  height: 200px;
+  padding: 0.3em 1em 0.3em 1em;
+  overflow : auto;
+  padding: 0.2em;
+}
+.part-title-container{
+  display: flex;
+  justify-content: center;
+}
+.part-title-container .part-title{
+  margin-top: 0.2em;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+.part-box{
+  border: 2px solid  rgba(0, 0, 102, 0.8);
+  border-radius: 0.5em;
+  height: 150px;
+}
+.box-link-container{
+  background-color:  rgba(0, 0, 102, 1);
+}
+.box-text-container{
+  background-color:  #668cff;
+  overflow : auto;
+  width: 100%;
+  height: auto;
+}
