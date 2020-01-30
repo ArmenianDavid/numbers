@@ -1,5 +1,6 @@
 .part{
   width: 30%;
+  min-width: 200px;
   height: 200px;
   padding: 0.3em 1em 0.3em 1em;
   padding: 0.2em;
@@ -21,10 +22,13 @@
 }
 .box-link-container{
   background-color:  rgba(0, 0, 102, 1);
+  height: 20%;
+  display: flex;
+  justify-content: center;
 }
 .box-text-container{
   background-color:  #668cff;
   overflow : auto;
   width: 100%;
-  height: 100%;
+  height: 80%;
 }
