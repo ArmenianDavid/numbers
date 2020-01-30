@@ -2,8 +2,8 @@
   width: 30%;
   height: 200px;
   padding: 0.3em 1em 0.3em 1em;
-  overflow : auto;
   padding: 0.2em;
+  margin-bottom: 3em;
 }
 .part-title-container{
   display: flex;
@@ -26,5 +26,5 @@
   background-color:  #668cff;
   overflow : auto;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
