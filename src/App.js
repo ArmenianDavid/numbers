@@ -3,6 +3,7 @@ import './App.css';
 import './Components/Header/Header';
 import Header from './Components/Header/Header';
 import Part from './Components/Description/Part';
+import TryIt from './Components/TryIt/TryIt';
 
 class App extends React.Component{
   render(){
@@ -17,6 +18,7 @@ class App extends React.Component{
               <Part api='2/28/date' title='date' />
             </div>
           </div>
+          <TryIt />
        </div>
     </div>
     ); 
