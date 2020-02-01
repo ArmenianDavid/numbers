@@ -36,7 +36,7 @@ const TryIt = () => {
             <div className='left-div'>
               <div className='top-part'>
                 <div>
-                  numbersapi.com/<input 
+                  <span>numbersapi.com/</span><input 
                                     type='text' 
                                     defaultValue={link} 
                                     onChange={handleChangeInput} 
@@ -44,7 +44,7 @@ const TryIt = () => {
                 </div>
               </div>
               <div className='bottom-part'>
-                  {data}
+                  <div>{data}</div>
               </div>
             </div>
 
