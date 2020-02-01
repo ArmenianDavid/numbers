@@ -36,6 +36,10 @@
   color: white;
   padding: 1em;
 }
+.main-part{
+  display: flex;
+  justify-content: flex-end;
+}
 
 @media only screen and (max-width : 870px ){
   .work-description{

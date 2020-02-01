@@ -18,7 +18,10 @@ class App extends React.Component{
               <Part api='2/28/date' title='date' />
             </div>
           </div>
-          <TryIt />
+          <div className='main-part'>
+            <TryIt />
+          </div>
+          
        </div>
     </div>
     ); 
